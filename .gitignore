@@ -1,0 +1,4 @@
+*.xml
+.idea/
+RestAssurredTask.iml
+target/
