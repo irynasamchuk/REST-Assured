@@ -49,7 +49,7 @@ public class DataDrivenTest_AddNewEmployees {
     @DataProvider(name = "empDataProvider")
     Object[][] getEmployeeData()
     {
-        String employeeData [][] = {{"Smitt01", "12000", "23"}, {"Smitt02", "12000", "23"}, {"Smitt03", "12000", "23"}};
+        String employeeData [][] = {{"Smitt011", "12000", "23"}, {"Smitt021", "12000", "23"}, {"Smitt031", "12000", "23"}};
         return  (employeeData);
     }
 
