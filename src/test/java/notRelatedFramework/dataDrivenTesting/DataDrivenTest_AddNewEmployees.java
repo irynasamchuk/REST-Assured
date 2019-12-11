@@ -1,4 +1,4 @@
-package dataDrivenTesting;
+package notRelatedFramework.dataDrivenTesting;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -38,9 +38,9 @@ public class DataDrivenTest_AddNewEmployees {
         String responseBody = response.getBody().asString();
         System.out.println("Response body: " + responseBody);
 
-        Assert.assertEquals(responseBody.contains(eName), true);
-        Assert.assertEquals(responseBody.contains(eSalary), true);
-        Assert.assertEquals(responseBody.contains(eAge), true);
+        Assert.assertTrue(responseBody.contains(eName));
+        Assert.assertTrue(responseBody.contains(eSalary));
+        Assert.assertTrue(responseBody.contains(eAge));
 
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 200);

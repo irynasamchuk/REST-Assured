@@ -1,0 +1,11 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+
+<suite name="restAssuredTestSuite">
+    <test name="restassuredtests">
+        <classes>
+            <class name="testCases.TC001GetAllEmployees"/>
+            <class name="testCases.TC002GetSingleEmployee"/>
+            <class name="testCases.TC005DeleteEmployee"/>
+        </classes>
+    </test>
+</suite>

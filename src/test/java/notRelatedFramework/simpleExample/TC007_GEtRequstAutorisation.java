@@ -1,3 +1,5 @@
+package notRelatedFramework.simpleExample;
+
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
 import io.restassured.http.Method;
