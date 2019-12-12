@@ -3,8 +3,6 @@ package testCases;
 import base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -12,11 +10,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.RestUtils;
 
-;
+;import java.util.HashMap;
+import java.util.Map;
 
 public class TC003PostEmployeeRecord extends TestBase {
-    public RequestSpecification httpRequest;
-    public Response response;
+//    public RequestSpecification httpRequest;
+//    public Response response;
 
     String empName = RestUtils.empName();
     String empSalary = RestUtils.empSal();
@@ -30,10 +29,12 @@ public class TC003PostEmployeeRecord extends TestBase {
         httpRequest = RestAssured.given();
 
         //JSONobject is a class that represents a simple JSON. We can Kay-Value pair using put method
-        JSONObject requestParams = new JSONObject();
-        requestParams.put("name", empName);
-        requestParams.put("salary", empSalary);
-        requestParams.put("age", empAge);
+
+        Map<String, String> jsonMap = new HashMap<>();
+        jsonMap.put("name", empName);
+        jsonMap.put("salary", empSalary);
+        jsonMap.put("age", empAge);
+        JSONObject requestParams = new JSONObject(jsonMap);
 
         //Add a header starting the Request body is a JSON
         httpRequest.header("Content-Type", "application/json");

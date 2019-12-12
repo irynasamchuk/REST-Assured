@@ -4,15 +4,13 @@ import base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TC005DeleteEmployee extends TestBase {
-    RequestSpecification httpRequest;
-    Response response;
+//    RequestSpecification httpRequest;
+//    Response response;
 
     @BeforeClass
     public void deleteEmployee() throws InterruptedException {

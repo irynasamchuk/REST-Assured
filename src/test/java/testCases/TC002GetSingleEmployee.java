@@ -11,8 +11,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TC002GetSingleEmployee extends TestBase {
-    public RequestSpecification httpRequest;
-    public Response response;
+//    public RequestSpecification httpRequest;
+//    public Response response;
 
     @BeforeClass
     public void getEmployee() throws InterruptedException {
