@@ -179,3 +179,53 @@
 2019-12-12 11:48:29 INFO  EmployeesRestAPI:48 - ****Finished TC002GetSingleEmployee****
 2019-12-12 11:48:29 INFO  EmployeesRestAPI:19 - ****Started TC005DeleteEmployee****
 2019-12-12 11:48:36 INFO  EmployeesRestAPI:41 - ****Employee is deleted****
+2019-12-13 11:12:33 INFO  EmployeesRestAPI:14 - ****Started TC001GetAllEmployees****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:88 - ****Checking Content Encoding****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:91 - Content Encoding is ==>null
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:98 - ****Checking Content Length****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:101 - Content Length is ==>436
+2019-12-13 11:12:35 WARN  EmployeesRestAPI:105 - Content Length is less than 100
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:68 - ****Checking Content Type****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:71 - Content Type is ==>text/html; charset=UTF-8
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:112 - ****Checking Cookies****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:115 - Cookies is ==>f8994f5ac6ba0a4663f1c7f2bfcd7724
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:25 - ****Checking Response Body****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:28 - Response Body==>[{"id":"1","employee_name":"Amrish puri","employee_salary":"2147483647","employee_age":"333","profile_image":""},{"id":"165815","employee_name":"AmpROSeYEroPhyst","employee_salary":"123","employee_age":"23","profile_image":""},{"id":"165817","employee_name":"test","employee_salary":"123","employee_age":"23","profile_image":""},{"id":"165818","employee_name":"km-test-3","employee_salary":"123","employee_age":"23","profile_image":""}]
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:45 - ****Checking Response Time****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:48 - Response Time is ==>1370
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:78 - ****Checking Server Type****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:81 - Server is ==>nginx/1.16.0
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:35 - ****Checking Status Code****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:38 - Status Code is ==>200
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:58 - ****Checking Status Line****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 200 OK
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:120 - ****Finished TC001GetAllEmployees****
+2019-12-13 11:12:35 INFO  EmployeesRestAPI:19 - ****Started TC002GetSingleEmployee****
+2019-12-13 11:12:39 INFO  EmployeesRestAPI:48 - ****Finished TC002GetSingleEmployee****
+2019-12-13 11:12:39 INFO  EmployeesRestAPI:17 - ****Started TC005DeleteEmployee****
+2019-12-13 11:12:46 INFO  EmployeesRestAPI:39 - ****Employee is deleted****
+2019-12-13 14:32:47 INFO  EmployeesRestAPI:14 - ****Started TC001GetAllEmployees****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:88 - ****Checking Content Encoding****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:91 - Content Encoding is ==>gzip
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:98 - ****Checking Content Length****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:101 - Content Length is ==>364
+2019-12-13 14:32:48 WARN  EmployeesRestAPI:105 - Content Length is less than 100
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:68 - ****Checking Content Type****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:71 - Content Type is ==>text/html; charset=UTF-8
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:112 - ****Checking Cookies****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:115 - Cookies is ==>355c51a97a72f96225d846ce0c26adc7
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:25 - ****Checking Response Body****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:28 - Response Body==>[{"id":"1","employee_name":"mulaaaaaaaaaa","employee_salary":"4225","employee_age":"123","profile_image":""},{"id":"168442","employee_name":"Praveen II","employee_salary":"52357","employee_age":"896","profile_image":""},{"id":"168444","employee_name":"Praveen kB","employee_salary":"5949","employee_age":"108","profile_image":""},{"id":"168445","employee_name":"AmpROSeYEroPhyst","employee_salary":"123","employee_age":"23","profile_image":""},{"id":"168446","employee_name":"Praveen uP","employee_salary":"65569","employee_age":"779","profile_image":""},{"id":"168448","employee_name":"km-test-3","employee_salary":"123","employee_age":"23","profile_image":""},{"id":"168450","employee_name":"Praveen gp","employee_salary":"90786","employee_age":"350","profile_image":""},{"id":"168452","employee_name":"Praveen We","employee_salary":"87418","employee_age":"589","profile_image":""},{"id":"168458","employee_name":"quayq","employee_salary":"123411","employee_age":"20","profile_image":""},{"id":"168461","employee_name":"manas","employee_salary":"12323","employee_age":"23","profile_image":""},{"id":"168483","employee_name":"sfdgsdfgfdsg34t3trgeg","employee_salary":"123","employee_age":"23","profile_image":""},{"id":"168486","employee_name":"PPstit22","employee_salary":"12322","employee_age":"24","profile_image":""},{"id":"168490","employee_name":"smallworld","employee_salary":"66666","employee_age":"43","profile_image":""},{"id":"168493","employee_name":"Ta1!#$%'()*+-.\/;:><=_FTYU[]&","employee_salary":"123","employee_age":"23","profile_image":""}]
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:45 - ****Checking Response Time****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:48 - Response Time is ==>1257
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:78 - ****Checking Server Type****
+2019-12-13 14:32:48 INFO  EmployeesRestAPI:81 - Server is ==>nginx/1.16.0
+2019-12-13 14:32:49 INFO  EmployeesRestAPI:35 - ****Checking Status Code****
+2019-12-13 14:32:49 INFO  EmployeesRestAPI:38 - Status Code is ==>200
+2019-12-13 14:32:49 INFO  EmployeesRestAPI:58 - ****Checking Status Line****
+2019-12-13 14:32:49 INFO  EmployeesRestAPI:61 - Status Line is ==>HTTP/1.1 200 OK
+2019-12-13 14:32:49 INFO  EmployeesRestAPI:120 - ****Finished TC001GetAllEmployees****
+2019-12-13 14:32:49 INFO  EmployeesRestAPI:19 - ****Started TC002GetSingleEmployee****
+2019-12-13 14:32:52 INFO  EmployeesRestAPI:48 - ****Finished TC002GetSingleEmployee****
+2019-12-13 14:32:52 INFO  EmployeesRestAPI:17 - ****Started TC005DeleteEmployee****
+2019-12-13 14:32:59 INFO  EmployeesRestAPI:39 - ****Employee is deleted****

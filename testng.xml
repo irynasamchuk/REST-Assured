@@ -1,6 +1,9 @@
 <?xml version ="1.0" encoding ="UTF-8"?>
 
 <suite name="restAssuredTestSuite">
+    <listeners>
+        <listener class-name="utilities.Listeners"/>
+    </listeners>
     <test name="restassuredtests">
         <classes>
             <class name="testCases.TC001GetAllEmployees"/>
