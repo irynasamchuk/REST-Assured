@@ -93,7 +93,7 @@ public class TC001GetAllEmployees extends TestBase {
         Assert.assertEquals(contentEncoding, "gzip");
     }
 
-    @Test
+    @Test(enabled = false)
     public void checkContentLength(){
         logger.info("****Checking Content Length****");
 
